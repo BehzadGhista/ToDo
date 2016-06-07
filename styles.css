@@ -1,0 +1,80 @@
+#background {
+	background-image:url("bg.jpg");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+#topPanel {
+	height:325px;
+	position:static;
+}
+#mainPanel {
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius:10px;
+	border:2px ridge white;
+	text-align:center;
+	padding: 10px 10px 10px 10px;
+}
+.topMargin {
+	margin-top:10px;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+.deleteButton {
+	float:right;
+	margin-top:0 auto;
+	margin-right:4px;
+}
+.glyphicon {
+	float:left;
+	margin-top:0 auto;
+	font-size:2.5em;
+}
+.glyphicon-check {
+	color:green;
+}
+.table {
+	margin:0 auto;
+}
+.table .taskDescription {
+	font-size:1.3em;
+	padding:12px 0 10px 0;
+}
+.table tbody tr.info > td {
+  	background-color: #cccccc !important;
+}
+.table-hover tbody tr.info:hover > td {
+  	background-color: #ffffff !important;
+}
+.table tbody tr.success > td {
+  	background-color: #99ff99 !important;
+}
+.btn:focus,.btn:active {
+   outline:none !important;
+}
+#buttonHolder .btn:focus,.btn:active {
+   outline:2px ridge #ffff80 !important;
+}
+#buttonHolder .btn {
+	margin:2px 2px 2px 2px;
+}
+#tasksRemainingContainer {
+	color:white;
+}
+#tasksRemaining {
+	font-size:4em;
+	font-weight:bold;
+	margin:0 auto;
+	padding:0;
+}
+h1 {
+	color:white;
+	font-weight:bold;
+	font-size:2.5em;
+	margin:0 auto;
+	margin-top:5px;
+}
+h4 {
+	margin:0 auto;
+}
+
